@@ -1,45 +1,27 @@
 import React from "react";
-import "../styles/TypingText.css"; // Create a CSS file for styling
-// import webdev from "../assets/webdev.png";
-// import ml from "../assets/ml.png";
-// import data from "../assets/data.png";
-// import darrow from "../assets/darrow.png";
-// import art1 from "../assets/art1.png";
+import "../styles/TypingText.css";
 
 const TypingText: React.FC = () => {
-  // const scrollToElement = (elementId: string) => {
-  //   const element = document.getElementById(elementId);
-  //   if (element) {
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
-
   return (
     <>
       <div className="buffer" id="main-text"></div>
       <div className="text-container">
-        {/* <p className="typing-text">
-          Hello, my name is&nbsp; <span className="blue-text"> Ryan!</span>
-        </p> */}
-        <p className="typing-text">RYAN ROTH</p>
-
+        <p className="main-text">RYAN ROTH</p>
         <div className="text-line">
           <p className="sub-text">
-            a&nbsp;
-            <span className="orange">software engineer&nbsp;</span>
-            primarily interested in
+            a software engineer primarily interested in
           </p>
         </div>
-        <div className="options">
-          <div className="op">
+        <div className="interests">
+          <div className="interest">
             {/* <img className="icon1" src={webdev} /> */}
             <p>Full Stack Development</p>
           </div>
-          <div className="op">
+          <div className="interest">
             {/* <img className="icon2" src={data} /> */}
             <p>Data Analytics</p>
           </div>
-          <div className="op">
+          <div className="interest">
             {/* <img className="icon3" src={ml} /> */}
             <p>Machine Learning</p>
           </div>

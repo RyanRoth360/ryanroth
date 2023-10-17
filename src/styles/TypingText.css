@@ -1,25 +1,18 @@
-/* TypingText.css */
 
 .about-pos {
-    /* margin-top: 4rem; */
     color: rgb(18,18,18);
 }
 
 .text-container {
-    /* width: max-content; */
-    /* height: max-content; */
     color: white;
-    /* font-weight: 600; */
     text-align: center;
     align-items: center;
     justify-content: center;
-    /* background-color: black; */
     background-color: rgb(18, 18, 18);
     /* background-image: url('../assets/scilib.jpeg');  */
     background-size: cover; 
     width: 100%;
     height: 75vh;
-    /* margin: 0 auto; */
 }
 
 
@@ -28,123 +21,64 @@
     justify-content: center;
 }
 
-.typing-text {
+.main-text {
     display: flex;
-    /* text-align: center; */
-    /* font-family: "Courier New", monospace; */
-    /* font-family: 'Verdana'; */
-    /* color: black; */
-    /* height: 6rem; */
-    /* color: white; */
     justify-content: center;
     align-items: center;
     font-size: 7rem;
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
-    /* width: 0;  */
-    /* border-right: 3px solid transparent;  */
     color: white;
     /* animation: typing 2s steps(23) 1s forwards, blink 1s 1s 11; */
     margin: 0;
-    /* margin: 0; */
     margin-top: 10rem;
-    padding-bottom: 0;
-    /* color: #FFA500; */
-    /* margin-bottom: 1rem; */
 }
 
-.blue-text {
-    color: #6CA6CD;
-    /* font-weight: 600; */
-}
 
 .sub-text {
     font-size: 1.5rem;
     color: rgb(167, 167, 167);
-    /* opacity: 0%; */
-    /* animation: img-fade-in 3s 1.5s forwards; */
-    text-align: left;
-    /* font-family: 'Helvetica Neue'; */
     margin: 0;
-    /* margin-left: 30%; */
     padding: 0;
-    font-family: 'Verdana';
-    
 }
 
 
-
-.options {
-    /* font-family: 'Helvetica Neue'; */
+.interests {
     justify-content: center;
     align-items: center;
-        margin-top: 8rem;
-    /* margin-left: 50%; */
-    font-family: 'Verdana';
+    margin-top: 5rem;
     font-size: 2rem;
-    color: rgb(253, 250, 244);
-    /* text-align: left; */
     color: white;
-    /* margin: 0 auto; */
-    /* padding: 0; */
 }
 
 
-.op {
+.interest {
     justify-content: center;
     height: 3rem;
     place-items: center;
     display: flex;
-    /* animation: fade-in 3s 2s forwards; */
+    margin-bottom: 1.5rem;
 }
 
 
-.icon1 {
-    opacity: 0%;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
-    animation: img-fade-in 3s 2s forwards;
-}
-
-.icon2 {
-    opacity: 0%;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
-    animation: img-fade-in 3s 3s forwards;
-}
-
-.icon3 {
-    opacity: 0%;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
-    animation: img-fade-in 3s 4s forwards;
-}
-
-.bottom-text {
+/* .bottom-text {
     font-size: 1.5rem;
     color: grey;
-    /* animation: fade-in 3s 4s forwards; */
     padding: 0;
-    /* margin-top: 12rem; */
     font-family: 'Verdana';
-    /* color: #6CA6CD; */
-}
+} */
 
-.arrow {
+/* .arrow {
     width: 2rem;
     height: 2rem;
     animation: img-blink 2s infinite;
     cursor: pointer;
     z-index: 0;
-}
+} */
 
 
-
-@keyframes typing {
+/* @keyframes typing {
     from {
         width: 0;
     }
@@ -161,9 +95,9 @@
     50% {
         border-right-color: transparent;
     }
-}
+} */
 
-@keyframes fade-in {
+/* @keyframes fade-in {
     from {
             opacity: 0%;
         }
@@ -191,4 +125,4 @@
     50% {
         opacity: 0%;
     }
-}
+} */

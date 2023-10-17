@@ -1,7 +1,5 @@
 import "../styles/AboutMe.css";
-// import ryan from "../assets/ryan.png";
 import ryan from "../assets/prof_text_img.png";
-// import darrow from "../assets/darrow.png";
 import anteater from "../assets/anteater.png";
 import mail from "../assets/mail.png";
 import linkedin from "../assets/linkedin.png";
@@ -10,13 +8,6 @@ import github from "../assets/github.png";
 import React from "react";
 
 const AboutMe: React.FC = () => {
-  // const scrollToElement = (elementId: string) => {
-  //   const element = document.getElementById(elementId);
-  //   if (element) {
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
-
   return (
     <>
       <div className="about">
@@ -47,7 +38,6 @@ const AboutMe: React.FC = () => {
                 Explore my portfolio to see my journey in the tech world, and
                 feel free to reach out!
               </p>
-              {/* <label className="contact-btn">Contact me</label> */}
               <div className="bottom-container">
                 <div>
                   <a

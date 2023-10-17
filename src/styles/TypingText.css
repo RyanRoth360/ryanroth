@@ -1,55 +1,62 @@
 
 .about-pos {
+    margin: 0;
     color: rgb(18,18,18);
 }
 
 .text-container {
+
     color: white;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: rgb(18, 18, 18);
-    /* background-image: url('../assets/scilib.jpeg');  */
-    background-size: cover; 
+    background-image: url('../assets/scilibdark.png');
+    background-size: cover;
     width: 100%;
     height: 75vh;
 }
 
 
-.text-line {
-    display: flex;
-    justify-content: center;
-}
+
+
 
 .main-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 7rem;
+    font-size: 8rem;
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
     color: white;
-    /* animation: typing 2s steps(23) 1s forwards, blink 1s 1s 11; */
     margin: 0;
     margin-top: 10rem;
+    font-weight: 600;
+    height: 8rem;
 }
 
 
 .sub-text {
     font-size: 1.5rem;
-    color: rgb(167, 167, 167);
+    color: white;
+    /* text-align: left; */
+    font-weight: 600;;
+    /* color: rgb(167, 167, 167); */
     margin: 0;
     padding: 0;
 }
 
 
 .interests {
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
+    /* justify-content: center; */
+    /* align-items: center; */
     font-size: 2rem;
     color: white;
+    font-weight: 600;
+    width: max-content;
+    margin: 5rem auto;
+    margin-bottom: 0;
+    border-radius: 40rem;
 }
 
 
@@ -59,8 +66,28 @@
     place-items: center;
     display: flex;
     margin-bottom: 1.5rem;
+    transition: transform 0.2s ease;
 }
 
+.interest:hover {
+    animation: jump 1.5s linear infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+
+    50% {
+        transform: translateY(-10px);
+        /* Move text 10 pixels up during the animation */
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 /* .bottom-text {
     font-size: 1.5rem;

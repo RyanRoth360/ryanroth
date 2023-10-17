@@ -10,6 +10,7 @@
 
 
 .about-container {
+    width: 100%;
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
@@ -30,22 +31,26 @@
 
 .about-body {
     display: flex;
+    height: 50%;
 }
 
 
 .about-text-container {
+    width: 100%;
     padding-left: 8rem;
     padding-right: 8rem;
     margin: 0;    
 }
 
-/* .headshot-container {
-   
-} */
+.headshot-container {
+   width: max-content;
+   max-height: 60vh;
+}
 
 .headshot {
-    height: 31rem;
-    width: auto;
+    position: relative;
+    height: 80%;
+    width: 90%;
     margin-left: 5rem;
 }
 
@@ -81,7 +86,8 @@
 
 
 .anteater {
-    margin-top: 3rem;
+    position: relative;
+    margin-top: 2rem;
     width: 20rem;
     height: auto;
     margin-left: 35rem;

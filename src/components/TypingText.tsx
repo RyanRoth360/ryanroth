@@ -6,12 +6,11 @@ const TypingText: React.FC = () => {
     <>
       <div className="buffer" id="main-text"></div>
       <div className="text-container">
+        {/* <div className="bg-container" /> */}
         <p className="main-text">RYAN ROTH</p>
-        <div className="text-line">
-          <p className="sub-text">
-            a software engineer primarily interested in
-          </p>
-        </div>
+        <p className="sub-text">
+          I'm a software engineer at UCI primarily interested in
+        </p>
         <div className="interests">
           <div className="interest">
             {/* <img className="icon1" src={webdev} /> */}

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react_test/static/css/main.77944171.css",
-    "main.js": "/react_test/static/js/main.d7a7a106.js",
-    "static/js/787.223550ad.chunk.js": "/react_test/static/js/787.223550ad.chunk.js",
-    "static/media/prof_text_img.png": "/react_test/static/media/prof_text_img.3455ac12637e6277dfb9.png",
-    "static/media/anteater.png": "/react_test/static/media/anteater.2abd29bb9a847a9c8b6d.png",
-    "static/media/github.png": "/react_test/static/media/github.f11021803f68852df283.png",
-    "static/media/linkedin.png": "/react_test/static/media/linkedin.13035068ddd54fca740f.png",
-    "index.html": "/react_test/index.html",
-    "main.77944171.css.map": "/react_test/static/css/main.77944171.css.map",
-    "main.d7a7a106.js.map": "/react_test/static/js/main.d7a7a106.js.map",
-    "787.223550ad.chunk.js.map": "/react_test/static/js/787.223550ad.chunk.js.map"
+    "main.css": "/ryanroth/static/css/main.bf56abc5.css",
+    "main.js": "/ryanroth/static/js/main.aa3214e3.js",
+    "static/js/787.45f66a3b.chunk.js": "/ryanroth/static/js/787.45f66a3b.chunk.js",
+    "static/media/prof_text_img.png": "/ryanroth/static/media/prof_text_img.3455ac12637e6277dfb9.png",
+    "static/media/anteater.png": "/ryanroth/static/media/anteater.2abd29bb9a847a9c8b6d.png",
+    "static/media/github.png": "/ryanroth/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/ryanroth/static/media/linkedin.13035068ddd54fca740f.png",
+    "index.html": "/ryanroth/index.html",
+    "main.bf56abc5.css.map": "/ryanroth/static/css/main.bf56abc5.css.map",
+    "main.aa3214e3.js.map": "/ryanroth/static/js/main.aa3214e3.js.map",
+    "787.45f66a3b.chunk.js.map": "/ryanroth/static/js/787.45f66a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77944171.css",
-    "static/js/main.d7a7a106.js"
+    "static/css/main.bf56abc5.css",
+    "static/js/main.aa3214e3.js"
   ]
 }

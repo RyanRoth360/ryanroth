@@ -46,7 +46,7 @@ const AboutMe: React.FC = () => {
               >
                 <div className="social">
                   <img className="social-icon" src={mail} />
-                  <p>Email</p>
+                  <p>Email: rtroth@uci.edu</p>
                 </div>
               </a>
 

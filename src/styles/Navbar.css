@@ -12,7 +12,13 @@ nav {
     padding: 35px 0;
     font-weight: 500;
     font-size: 1.25rem;
-    z-index: 100;
+    z-index: 10000;
+}
+
+@media (max-width: 500px) {
+    .nav {
+        height: 5rem;
+    }
 }
 
 .navbar-container {
@@ -21,6 +27,13 @@ nav {
     align-items: center;
 
     height: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    .navbar-container {
+        margin-top: 3rem;
+        flex-direction: column;
+    }
 }
 
 
@@ -44,10 +57,27 @@ nav {
     /* width: 0%; */
 }
 
+@media (max-width: 500px) {
+    .contact-icons {
+        margin: 0;
+    }
+
+}
+
 .contact-icons img {
     width: 2rem;
     height: 2rem;
     margin-right: 1.5rem;
     /* opacity: 0%; */
+}
+
+@media (max-width: 500px) {
+    .contact-icons img {
+        margin: 0;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        padding-bottom: 1rem;
+    }
 }
 

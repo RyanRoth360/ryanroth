@@ -9,7 +9,7 @@ const TypingText: React.FC = () => {
         {/* <div className="bg-container" /> */}
         <p className="main-text">RYAN ROTH</p>
         <p className="sub-text">
-          I'm a software engineer at UCI primarily interested in
+          I'm a software engineer at UC Irvine primarily interested in
         </p>
         <div className="interests">
           <div className="interest">

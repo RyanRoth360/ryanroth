@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ryanroth/static/css/main.9d937902.css",
-    "main.js": "/ryanroth/static/js/main.f89daa3a.js",
+    "main.css": "/ryanroth/static/css/main.85daa784.css",
+    "main.js": "/ryanroth/static/js/main.772360a3.js",
     "static/js/787.45f66a3b.chunk.js": "/ryanroth/static/js/787.45f66a3b.chunk.js",
     "static/media/scilibdark.png": "/ryanroth/static/media/scilibdark.a34c8c1dae312d91a951.png",
     "static/media/prof_text_img.png": "/ryanroth/static/media/prof_text_img.3455ac12637e6277dfb9.png",
@@ -11,12 +11,12 @@
     "static/media/github.png": "/ryanroth/static/media/github.f11021803f68852df283.png",
     "static/media/linkedin.png": "/ryanroth/static/media/linkedin.13035068ddd54fca740f.png",
     "index.html": "/ryanroth/index.html",
-    "main.9d937902.css.map": "/ryanroth/static/css/main.9d937902.css.map",
-    "main.f89daa3a.js.map": "/ryanroth/static/js/main.f89daa3a.js.map",
+    "main.85daa784.css.map": "/ryanroth/static/css/main.85daa784.css.map",
+    "main.772360a3.js.map": "/ryanroth/static/js/main.772360a3.js.map",
     "787.45f66a3b.chunk.js.map": "/ryanroth/static/js/787.45f66a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d937902.css",
-    "static/js/main.f89daa3a.js"
+    "static/css/main.85daa784.css",
+    "static/js/main.772360a3.js"
   ]
 }

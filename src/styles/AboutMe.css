@@ -2,16 +2,22 @@
 .about {
     /* margin-top: 10rem; */
     display: flex; 
+    /* flex-direction: column; */
     /* align-items: center; */
     min-height: 30rem;
     justify-content: center;
     width: 100%;
-    height: 75vh;
+    /* height: 50%; */
     background-color: white;
     margin-bottom: 5rem;
     z-index: 100;
 }
 
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+}
 
 
 .about-title-text {
@@ -40,7 +46,7 @@
 
 .headshot-container {
     /* width: 30%; */
-    height: 90%;
+    height: 36rem;
    /* flex: 1; */
    /* width: 50rem; */
    /* height: 50rem; */
@@ -67,6 +73,7 @@
         display: flex;
         width: 100%;
         /* align-items: center; */
+    margin-bottom: 3rem;
 }
 
 
@@ -94,17 +101,9 @@
 }
 
 
-.anteater {
-    /* position: absolute; */
-    /* Position the anteater image absolutely */
-    bottom: 0;
-    /* Stick it to the bottom */
-    left: 0;
-    /* Stick it to the left */
-    width: 20rem;
-    height: auto;
+.bottom-buffer {
+    margin-bottom: 3rem;
 }
-
 /* .bottom-about-text {
     font-size: 1.5rem;
     padding: 0;

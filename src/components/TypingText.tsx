@@ -33,9 +33,7 @@ const TypingText: React.FC = () => {
           src={darrow}
           onClick={() => scrollToElement("about-me")}
         /> */}
-        <div id="about-me" className="about-pos">
-          .
-        </div>
+        <div id="about-me" className="about-pos"></div>
       </div>
     </>
   );

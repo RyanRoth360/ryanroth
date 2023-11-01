@@ -75,6 +75,7 @@ const AboutMe: React.FC = () => {
 
             {/* <img alt="" className="anteater" src={anteater} /> */}
           </div>
+          <div id="projects" className="project-pos"></div>
           {/* </div> */}
         </div>
         {/* <p className="bottom-about-text">Projects & Skills</p> */}

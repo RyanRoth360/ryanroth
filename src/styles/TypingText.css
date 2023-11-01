@@ -1,7 +1,7 @@
 
 .about-pos {
     margin: 0;
-    color: rgb(18,18,18);
+    height: 8rem;
 }
 
 .text-container {
@@ -76,9 +76,9 @@
     transition: transform 0.2s ease;
 }
 
-.interest:hover {
+/* .interest:hover {
     animation: jump 1.5s linear infinite;
-}
+} */
 
 @keyframes jump {
     0% {

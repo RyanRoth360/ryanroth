@@ -1,4 +1,10 @@
 
+.title {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
 .proj-title-container {
     align-items: left;
 }
@@ -7,63 +13,72 @@
     align-self: left;
 }
 
+.car-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+
 .project-container {
-    width: 100rem;
-    min-height: 40rem;
-    /* background-color: rgb(208, 231, 238); */
-    background: radial-gradient(rgb(137, 203, 232), rgb(196, 196, 211));
-    /* margin-top: 10rem; */
-    border-radius: 40px;
-    margin-bottom: 10rem;
+    font-family: 'Roboto Slab', serif;
+    width: 80%;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-bottom: 5rem;
     transition: box-shadow 0.3s ease-in-out;
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
+}
+
+.project-container:hover {
+    border-color: #B5D3B3;
+}
+
+.project-body {
+    display: flex;
+}
+
+@media (max-width: 1080px) {
+    .project-body {
+        flex-direction: column;
+    }
 }
 
 .proj-text-container {
-    background-color: grey;
-    margin-left: -20%;
-    opacity: 75%;
-    height: 20rem;
-}
-
-.proj-text-container p {
-    opacity: 100%;
-}
-
-.skill-text {
-    font-size: 1rem;
-    text-align: left;
-    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-left: 5rem;
     
 }
 
-.img-container {
-    display:flex;
-    margin: 0;
-    padding: 3rem;
-    padding-bottom: 0;
-}
-
-.img-container img {
-    width: 80%;
-    margin: 0 auto;
-    /* align-content: center; */
+.body-text-container {
+    display: flex;
+    width: 100%;
 }
 
 .title-text {
-    margin: 0;
-    padding: 0;
-    padding-left: 2rem;
-    padding-top: 1rem;
     font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-text {
+    padding-right: 4rem;
+    font-size: 14px;
+    margin: 0;
+}
+
+.des-text {
+    padding-right: 4rem;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 2rem;
 }
 
 
-
-
-.project-text {
-    font-size: 1.1rem;
-    text-align: left;
-}
 

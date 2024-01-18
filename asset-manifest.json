@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ryanroth/static/css/main.037d3607.css",
+    "main.js": "/ryanroth/static/js/main.c4de83ae.js",
+    "static/js/787.f5d2cd92.chunk.js": "/ryanroth/static/js/787.f5d2cd92.chunk.js",
+    "static/media/rideshare5.png": "/ryanroth/static/media/rideshare5.91abd318ff69770c35ed.png",
+    "static/media/rideshare4.png": "/ryanroth/static/media/rideshare4.497471fc10737fffb512.png",
+    "static/media/rideshare3.png": "/ryanroth/static/media/rideshare3.e7416b8a89033cfdbab5.png",
+    "static/media/rideshare2.png": "/ryanroth/static/media/rideshare2.221c283ad70c6d51bc77.png",
+    "static/media/rideshare1.png": "/ryanroth/static/media/rideshare1.b674d95e9448cd82e165.png",
+    "static/media/spotify.jpeg": "/ryanroth/static/media/spotify.5a0de4b50d53ea095faa.jpeg",
+    "static/media/mendix.jpeg": "/ryanroth/static/media/mendix.25f769a690b3ac9e2a61.jpeg",
+    "static/media/pytorch.png": "/ryanroth/static/media/pytorch.2847b63a78ef21225f03.png",
+    "static/media/github.png": "/ryanroth/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/ryanroth/static/media/linkedin.13035068ddd54fca740f.png",
+    "index.html": "/ryanroth/index.html",
+    "main.037d3607.css.map": "/ryanroth/static/css/main.037d3607.css.map",
+    "main.c4de83ae.js.map": "/ryanroth/static/js/main.c4de83ae.js.map",
+    "787.f5d2cd92.chunk.js.map": "/ryanroth/static/js/787.f5d2cd92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.037d3607.css",
+    "static/js/main.c4de83ae.js"
+  ]
+}

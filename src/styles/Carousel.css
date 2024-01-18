@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+.App-header {
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 2rem;
+}
+
+.carousel {
+    padding: 1rem;
+    /* background-color: black; */
+}
+
+.carousel-images {
+    position: relative;
+    border-radius: 10px;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images img {
+    width: 99%;
+    height: 99%;
+    border-radius: 8px;
+    border: #ff00008e solid 2px;
+}
+
+.slide_direction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* height: 5rem; */
+}
+
+.left,
+.right {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 0.472);
+    border-radius: 20px;
+}
+
+.right:hover,
+.left:hover {
+    cursor: pointer;
+}
+
+.carousel-indicator {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.indicator {
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20rem;
+    /* background-color: black; */
+}
+
+@media (max-width: 500px) {
+    .image-container {
+        min-width: 0;
+    }
+}
+
+.image {
+    max-height: 35rem;
+}
+
+.dot {
+    margin: 0.5rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: black;
+}

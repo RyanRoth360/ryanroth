@@ -1,0 +1,131 @@
+
+
+
+.proj-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.project-container {
+    font-family: 'Verdana';
+    /* width: 90%; */
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 0;
+    /* margin-right: 10%; */
+    /* margin-left: 10%; */
+}
+
+@media (max-width: 1200px) {
+    .project-body {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.proj-text-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 0;
+    /* padding-left: 5rem; */
+    
+}
+
+.title-text-container {
+    display: flex;
+    margin: 0;
+}
+
+.title-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}
+
+.where-text {
+    margin: 0;
+    margin-left: auto;
+    font-size: 24px;
+    color: black;
+}
+
+.title-sub-text {
+    color: rgb(95, 95, 95);
+    padding-right: 4rem;
+    font-size: 14px;
+    margin: 0;
+    /* color: black; */
+}
+
+.des-text {
+    color: black;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+
+/* styles.module.css */
+
+.single-img-container {
+    position: relative;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+    /* max-height: 30rem; */
+    margin: 0;
+    margin-top: 1rem;
+    /* padding: 2rem; */
+    overflow: hidden;
+}
+
+.single-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    /* Added transition for filter */
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adjust the overlay color and transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.img-overlay p {
+    color: #fff;
+    /* Set the text color */
+    font-size: 24px;
+    text-align: center;
+}
+
+.single-img-container:hover .img-overlay {
+    opacity: 1;
+}
+
+.single-img-container:hover .single-img {
+    filter: blur(1px);
+    /* Adjust the grayscale percentage */
+}

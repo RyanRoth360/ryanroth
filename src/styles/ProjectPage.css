@@ -1,0 +1,59 @@
+
+.project-pos {
+    opacity: 0%;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.proj-pair {
+    display: flex;
+}
+.col {
+    width: 100%;
+}
+.projects {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.proj-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-bottom: 6rem;
+    padding-top: 3rem;
+    
+}
+
+.project-text {
+    text-align: left;
+    color: black;
+    font-size: 36px;
+    /* margin-left: 10%; */
+    /* margin: 0; */
+    /* margin-bottom: 4rem; */
+}
+
+.divider {
+    margin-left: 4%;
+    /* margin-right: 5%; */
+}
+
+.single-proj {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+@media (max-width: 900px) {
+    .projects {
+        flex-direction: column;
+    }
+}
+

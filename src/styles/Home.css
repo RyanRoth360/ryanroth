@@ -1,0 +1,105 @@
+
+.about-pos {
+    margin: 0;
+    height: 8rem;
+}
+
+.text-container {
+    justify-content: center;
+    background: rgb(229, 221, 210);
+    background-size: cover;
+    width: 80%;
+    /* margin-bottom: 3rem; */
+}
+
+
+
+.main-text {
+    display: flex;
+    font-size: 96px;
+    font-weight: 400;
+    margin: 0;
+    /* margin-top: 3rem; */
+    /* font-weight: 500; */
+    /* height: 8rem; */
+}
+
+.sub-text {
+    /* margin-top: 3rem; */
+    font-size: 24px;
+    padding: 0;
+    width: 55%;
+    margin-bottom: 1rem;
+}
+
+
+
+
+/* .interest:hover {
+    animation: jump 1.5s linear infinite;
+} */
+
+/* .bottom-text {
+    font-size: 1.5rem;
+    color: grey;
+    padding: 0;
+    font-family: 'Verdana';
+} */
+
+/* .arrow {
+    width: 2rem;
+    height: 2rem;
+    animation: img-blink 2s infinite;
+    cursor: pointer;
+    z-index: 0;
+} */
+
+
+/* @keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from, to  {
+        border-right-color: black;
+    }
+    50% {
+        border-right-color: transparent;
+    }
+} */
+
+/* @keyframes fade-in {
+    from {
+            opacity: 0%;
+        }
+    
+        to {
+            opacity: 100%;
+        }
+}
+
+
+@keyframes img-fade-in {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes img-blink {
+    from, to {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+} */

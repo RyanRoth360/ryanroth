@@ -26,7 +26,6 @@ const Project: React.FC<Props> = ({ title, skills, des, imgs, url }) => {
         <div className="proj-img-container">
           <ImageComponent images={imgs} url={url} />
         </div>
-        <hr />
       </div>
     </>
   );

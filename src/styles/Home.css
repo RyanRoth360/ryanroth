@@ -13,10 +13,9 @@
 }
 
 
-
 .main-text {
     display: flex;
-    font-size: 96px;
+    font-size: 72px;
     font-weight: 400;
     margin: 0;
     /* margin-top: 3rem; */

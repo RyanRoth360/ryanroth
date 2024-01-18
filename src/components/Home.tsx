@@ -14,7 +14,11 @@ const TypingText: React.FC = () => {
           Orange County, CA.
         </p>
         <p className="sub-text">
-          Feel free to contact me at <u>rtroth@uci.edu</u>!
+          Feel free to contact me at{" "}
+          <a href="mailto:rtroth@uci.edu" target="_blank">
+            rtroth@uci.edu
+          </a>
+          !
         </p>
 
         <div id="about-me" className="about-pos"></div>

@@ -56,6 +56,8 @@ const ProjectPage: React.FC = () => {
               imgs={pytorch}
               url={emotion_url}
             />
+            <hr />
+
             <Project
               title={webreg_title}
               skills={webreg_skills}
@@ -73,6 +75,8 @@ const ProjectPage: React.FC = () => {
               imgs={spotify}
               url={spotify_repo}
             />
+            <hr />
+
             <Project
               title={rideshare_title}
               skills={rideshare_skills}

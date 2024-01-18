@@ -1,5 +1,6 @@
 // import React, { useState, useEffect } from "react";
 import "../styles/ProjectPage.css"; // Create a CSS file for styling
+import React, { useEffect } from "react";
 import Project from "./Project";
 import rideshare1 from "../assets/rideshare1.png";
 import rideshare2 from "../assets/rideshare2.png";
@@ -22,7 +23,27 @@ const ProjectPage: React.FC = () => {
     rideshare4,
     rideshare5,
   ];
+  useEffect(() => {
+    // Array of image URLs to preload
+    const imageUrls = [
+      rideshare1,
+      rideshare2,
+      rideshare3,
+      rideshare4,
+      rideshare5,
+    ];
 
+    // Function to preload images
+    const preloadImages = (urls: string[]) => {
+      urls.forEach((url) => {
+        const img = new Image();
+        img.src = url;
+      });
+    };
+
+    // Preload images on component mount
+    preloadImages(imageUrls);
+  }, []);
   const emotion_title: string = "AI Facial Emotion Detector";
   const emotion_time: string = "Fall 2023 | Artificial Intelligence";
   const emotion_des: string =

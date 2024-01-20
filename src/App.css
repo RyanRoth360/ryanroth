@@ -1,7 +1,7 @@
 
 .hero {
     display: flex;
-    background-color:rgb(229, 221, 210);
+    background-color:rgb(27, 47, 91);
     /* background-image: "bluebg.jpg"; */
     /* background-color: black; */
     flex-direction: column;

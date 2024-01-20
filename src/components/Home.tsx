@@ -15,7 +15,7 @@ const TypingText: React.FC = () => {
         </p>
         <p className="sub-text">
           Feel free to contact me at{" "}
-          <a href="mailto:rtroth@uci.edu" target="_blank">
+          <a className="email" href="mailto:rtroth@uci.edu" target="_blank">
             rtroth@uci.edu
           </a>
           !

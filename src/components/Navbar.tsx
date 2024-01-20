@@ -1,9 +1,9 @@
 import "../styles/Navbar.css";
 
 import React, { useEffect } from "react";
-import mail from "../assets/mail.png";
-import linkedin from "../assets/linkedin.png";
-import github from "../assets/github.png";
+import mail from "../assets/mail_white.png";
+import linkedin from "../assets/linkedin_white.png";
+import github from "../assets/github_white.png";
 
 const Navbar: React.FC = () => {
   const scrollToElement = (elementId: string) => {

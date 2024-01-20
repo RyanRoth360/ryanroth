@@ -6,7 +6,7 @@
 
 .text-container {
     justify-content: center;
-    background: rgb(229, 221, 210);
+    background: rgb(27, 47, 91);
     background-size: cover;
     width: 80%;
     /* margin-bottom: 3rem; */
@@ -15,23 +15,27 @@
 
 .main-text {
     display: flex;
-    font-size: 72px;
+    font-size: 96px;
     font-weight: 400;
     margin: 0;
-    /* margin-top: 3rem; */
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;    /* margin-top: 3rem; */
     /* font-weight: 500; */
     /* height: 8rem; */
 }
 
 .sub-text {
     /* margin-top: 3rem; */
+    color: white;
     font-size: 24px;
     padding: 0;
     width: 55%;
     margin-bottom: 1rem;
 }
 
-
+.email {
+    color: white;
+}
 
 
 /* .interest:hover {

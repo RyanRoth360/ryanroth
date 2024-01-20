@@ -25,6 +25,7 @@
     width: 100%;
     color: white;
     font-size: 2rem;
+    
     /* align-items: center; */
     /* justify-content: center; */
     margin-bottom: 6rem;
@@ -33,6 +34,7 @@
 }
 
 .project-text {
+    margin-top: 0;
     text-align: left;
     color: black;
     font-size: 36px;

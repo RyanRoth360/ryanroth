@@ -6,7 +6,7 @@
 
 .text-container {
     justify-content: center;
-    background: rgb(27, 47, 91);
+    background: transparent;
     background-size: cover;
     width: 80%;
     /* margin-bottom: 3rem; */

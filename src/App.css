@@ -1,7 +1,8 @@
 
 .hero {
     display: flex;
-    background-color:rgb(27, 47, 91);
+    /* background-color:rgb(27, 47, 91); */
+    background: linear-gradient(to bottom, #449bff, #000000);
     /* background-image: "bluebg.jpg"; */
     /* background-color: black; */
     flex-direction: column;

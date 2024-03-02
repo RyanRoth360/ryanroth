@@ -20,27 +20,12 @@ const ImageComponent: React.FC<ImageProps> = ({ images, url }) => {
     const singleImage = Array.isArray(images) ? images[0] : images;
     return (
       <>
-        {url !== "" ? (
-          <a href={url} target="_blank" rel="noopener noreferrer">
-            <div className="single-img-container">
-              <img
-                className="single-img"
-                src={singleImage}
-                alt="Single Image"
-              />
-              <div className="img-overlay">
-                <p>Show Project</p>
-              </div>
-            </div>
-          </a>
-        ) : (
-          <div className="single-img-container">
-            <img className="single-img" src={singleImage} alt="Single Image" />
-            {/* <div className="img-overlay">
+        <div className="single-img-container">
+          <img className="single-img" src={singleImage} alt="Single Image" />
+          {/* <div className="img-overlay">
               <p>Show Project</p>
             </div> */}
-          </div>
-        )}
+        </div>
       </>
     );
   }

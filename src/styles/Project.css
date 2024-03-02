@@ -10,24 +10,36 @@
 
 
 .project-container {
+    padding: 2rem;
     font-family: 'Verdana';
-    /* width: 90%; */
-    border-style: solid;
-    border-color: white;
+    width: 70%;
+    display: flex;
+    border-radius: 30px;
     background-color: white;
-    /* border-width: 1px;
-    border-radius: 5px; */
-    /* border-width: 4px; */
-    /* border-color: black; */
     margin-bottom: 5rem;
     transition: box-shadow 0.3s ease-in-out;
     margin: 0;
+    margin-bottom: 1rem;
+    
+    /* margin-bottom: 3rem; */
     /* margin-right: 10%; */
     /* margin-left: 10%; */
 }
 
-@media (max-width: 1200px) {
-    .project-body {
+.flex {
+    display: flex;
+    cursor: pointer;
+}
+
+.project-container:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    .rarrow {
+        width: 45px;
+    }
+}
+
+@media (max-width: 950px) {
+    .project-container {
         flex-direction: column;
         align-items: center;
     }
@@ -43,16 +55,17 @@
     
 }
 
-.title-text-container {
-    display: flex;
-    margin: 0;
+.view-more-text {
+    color: rgb(52, 123, 205);
+    font-size: 20px;
 }
 
 .title-text {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     color: black;
     margin: 0;
+    margin-bottom: 16px;
 }
 
 .where-text {
@@ -77,17 +90,24 @@
     margin-top: 0.5rem;
 }
 
+.text {
+    margin-right: 2rem;
+    width: 100%;
+}
 
 /* styles.module.css */
 
 .single-img-container {
     position: relative;
-    width: 100%;
+    width: 80%;
+    height: 90%;
+    /* padding: 5rem; */
     /* align-items: center;
     justify-content: center; */
     max-height: 30rem;
     margin: 0;
-    margin-top: 1rem;
+    margin-left: 4rem;
+    /* margin-top: 1rem; */
     /* padding: 2rem; */
     overflow: hidden;
 }
@@ -95,20 +115,29 @@
 .single-img {
     width: 100%;
     height: 100%;
+    /* max-width: 80%; */
     object-fit: cover;
-    cursor: pointer;
-    transition: filter 0.3s ease;
+    /* cursor: pointer; */
+    border-radius: 20px;
+    /* transition: filter 0.3s ease; */
     /* Added transition for filter */
 }
 
-.img-overlay {
+.rarrow {
+    margin-top: 18px;
+    margin-left: 5px;
+    width: 0px;
+    height: 30px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* .img-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    /* Adjust the overlay color and transparency */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +147,6 @@
 
 .img-overlay p {
     color: #fff;
-    /* Set the text color */
     font-size: 24px;
     text-align: center;
 }
@@ -129,5 +157,4 @@
 
 .single-img-container:hover .single-img {
     filter: blur(1px);
-    /* Adjust the grayscale percentage */
-}
+} */
